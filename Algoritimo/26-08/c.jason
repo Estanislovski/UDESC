@@ -1,0 +1,15 @@
+{
+  "C Template": {
+    "prefix": "cmain",
+    "body": [
+      "#include <stdio.h>",
+      "#include <stdlib.h>",
+      "",
+      "int main() {",
+      "\t$0",
+      "\treturn 0;",
+      "}"
+    ],
+    "description": "Template básico de arquivo C"
+  }
+}
