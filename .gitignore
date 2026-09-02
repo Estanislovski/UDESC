@@ -1,0 +1,64 @@
+# Arquivos de pré-requisito
+*.d
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Saída do linker
+*.ilk
+*.map
+*.exp
+
+# Headers pré-compilados
+*.gch
+*.pch
+
+# Bibliotecas
+*.lib
+*.a
+*.la
+*.lo
+
+# Objetos compartilhados (incl. DLLs do Windows)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executáveis
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Arquivos de debug
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Resultados de compilação de módulos de kernel
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+
+# Arquivos de informação de debug
+*.dwo
+
+# Extras úteis (build/IDE)
+build/
+bin/
+Debug/
+Release/
+.vscode/
+*.suo
+*.user
