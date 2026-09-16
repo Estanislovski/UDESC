@@ -5,20 +5,20 @@ int main() {
     float n1, n2, n3, n4, media;
 
     printf("Informe a 1ª nota: ");
-    scanf("%f", n1);
+    scanf("%f", &n1);
     printf("Informe a 2ª nota: ");
-    scanf("%f", n2);
+    scanf("%f", &n2);
     printf("Informe a 3ª nota: ");
-    scanf("%f", n3);
+    scanf("%f", &n3);
     printf("Informe a 1ª nota: ");
-    scanf("%f", n4);
+    scanf("%f", &n4);
 
     media = (n1 + n2 + n3 + n4) / 4;
 
     if (media >= 6){
-    printf("Aluno provado");
+    printf("Aprovada");
     } else{
-        printf("Aluno Reprovado!");
+        printf("Reprovado");
     }
     return 0;
 }
