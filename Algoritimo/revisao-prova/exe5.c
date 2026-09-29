@@ -30,7 +30,7 @@ int main() {
             printf("Sabado");
             break;
         default:
-            printf("Informe um numero valido");
+            printf("Dia Invalido!!");
             break;
     }
 
