@@ -7,7 +7,7 @@ int main() {
     printf("Digite um número inteiro(digite 0 para sair): ");
     scanf("%i", &i);
     while (i != 0){
-        if (i >= 100 && i <=200){
+        if (i >= 100 && i <= 200){
             c ++;
         }
         printf("Digite um número inteiro(digite 0 para sair): ");
