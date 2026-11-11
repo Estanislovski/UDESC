@@ -13,7 +13,8 @@ int main()
         }
             }
     for(i = 0; i < 4; i++){
-        medianotas[i] = somalinha[i] / 4.0;
+        printf("%.xf\n", somalinha[i]);
+        medianotas[i] = somalinha[i] / 5.0;
         printf("A media das notas foi %.2f\n", medianotas[i]);
     }
 
