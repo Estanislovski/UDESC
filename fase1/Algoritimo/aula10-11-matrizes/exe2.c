@@ -1,27 +1,29 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.h>
 
-int main()
-{
-    int i, j, tam = 4;
-    int a[tam][tam], somadp = 0;
-    srand(time(NULL));
+/*Escreva um programa que leia uma matriz quadrada e escreva todos os elementos, exceto os elementos
+da diagonal principal. */
 
-    for(i = 0; i < tam; i++){
+int main() {
+    int i, j, tam = 4;// var auxiliar
+    float matriz[4][4]/*={{1, 2, 3, 4},{1, 2, 3, 4},{1, 2, 3, 4},{1, 2, 3, 4}}*/;
+
+    for(i = 0; i < tam; i++){//scan
         for(j = 0; j < tam; j++){
             printf("Digite o numero intero que ocupara a posicao da linha %i e coluna %i: ", i + 1, j + 1);
-            scanf("%i", &a[i][j]);
-            //printf("%i ", a[i][j]);
-
-            if(i == j){
-                somadp += a[i][j];
-            }
+            scanf("%f",&matriz[i][j]);
         }
-        //printf("\n");
     }
 
-
-    printf("A soma da Diagonal Principal e %i", somadp);
+    for(i = 0; i < tam; i++){//print
+        for(j = 0; j < tam; j++){
+            if(i == j){
+                printf("    ");
+            }else{
+                printf("%.2f ", matriz[i][j]);
+            }
+        }
+        printf("\n");
+    }
     return 0;
 }
