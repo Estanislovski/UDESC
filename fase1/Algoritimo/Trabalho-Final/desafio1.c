@@ -25,6 +25,7 @@ void ajuda(){
 }
 
 void jogar(){
+
     int i, j, v, coluna;
     char linha;
 
